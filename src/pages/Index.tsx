@@ -284,6 +284,13 @@ export default function Index() {
                 </div>
               ))}
             </div>
+            <div className="mt-8 inline-flex items-center gap-3 bg-white/70 border border-pink-200 rounded-2xl px-5 py-3">
+              <Icon name="Users" size={18} className="text-pink-400 flex-shrink-0" />
+              <div className="text-sm text-pink-700">
+                <span className="font-semibold">Захарова Татьяна, Маркова Анжела</span>
+                <span className="text-pink-400 ml-2">· группа ИС-25-12б</span>
+              </div>
+            </div>
           </div>
           <div className="hidden md:block animate-slide-up" style={{ animationDelay: "0.3s" }}>
             <div className="relative">
