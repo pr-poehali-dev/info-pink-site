@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Icon from "@/components/ui/icon";
 
 const IMG_HERO = "https://cdn.poehali.dev/projects/ed4352f8-9443-4b06-a835-501be13d6362/files/a43e3818-332a-4e21-904a-14a202e717d9.jpg";
-const IMG_TYPES = "https://cdn.poehali.dev/projects/ed4352f8-9443-4b06-a835-501be13d6362/files/e87ecf67-726e-4441-97b5-610a9bcfaaac.jpg";
+const IMG_TYPES = "https://cdn.poehali.dev/projects/ed4352f8-9443-4b06-a835-501be13d6362/files/197b6246-82ea-4e1d-ba70-5cc8deb5332b.jpg";
 const IMG_KNOWLEDGE = "https://cdn.poehali.dev/projects/ed4352f8-9443-4b06-a835-501be13d6362/files/930f230c-3302-4c37-b8d9-5f874ffa5ee8.jpg";
 
 const quizQuestions = [
