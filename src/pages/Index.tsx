@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Icon from "@/components/ui/icon";
 
-const IMG_HERO = "https://cdn.poehali.dev/projects/ed4352f8-9443-4b06-a835-501be13d6362/files/a43e3818-332a-4e21-904a-14a202e717d9.jpg";
+const IMG_HERO = "https://sun9-17.userapi.com/s/v1/ig2/3oGly0H7dcyc8s7FUtpiYt78AMedyd5ZxtuhFq6lX9-S4wAtDf6hylky1WKX1Kk31A8z6UQUP3RWCUICOrf454dl.jpg?quality=95&as=32x33,48x49,72x74,108x111,160x164,240x246,360x369,480x492,540x553,640x656,720x738,1000x1025&from=bu&u=7CIbRO2AGfD4a8s-FdNpvof2ZiHvrcDfx6_Ng6iWZ5Y&cs=1000x0";
 const IMG_TYPES = "https://cdn.poehali.dev/projects/ed4352f8-9443-4b06-a835-501be13d6362/files/197b6246-82ea-4e1d-ba70-5cc8deb5332b.jpg";
 const IMG_KNOWLEDGE = "https://cdn.poehali.dev/projects/ed4352f8-9443-4b06-a835-501be13d6362/files/930f230c-3302-4c37-b8d9-5f874ffa5ee8.jpg";
 
