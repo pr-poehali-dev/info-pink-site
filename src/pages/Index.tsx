@@ -370,16 +370,29 @@ export default function Index() {
       <section id="types" className="py-24">
         <div className="max-w-6xl mx-auto px-4">
           <SectionHeader icon="Layers" title="Виды информации" subtitle="Классификация по форме представления" />
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mt-12">
-            {infoTypes.map((type, i) => (
-              <div key={i} className="group glass-card rounded-3xl p-7 hover-lift cursor-default border border-pink-100 hover:border-pink-300 transition-all">
-                <div className={`w-16 h-16 bg-gradient-to-br ${type.color} rounded-2xl flex items-center justify-center text-3xl mb-5 group-hover:scale-110 transition-transform shadow-md`}>
-                  {type.emoji}
+          <div className="mt-12 space-y-6">
+            <div className="grid grid-cols-3 gap-6">
+              {infoTypes.slice(0, 3).map((type, i) => (
+                <div key={i} className="group glass-card rounded-3xl p-7 hover-lift cursor-default border border-pink-100 hover:border-pink-300 transition-all">
+                  <div className={`w-16 h-16 bg-gradient-to-br ${type.color} rounded-2xl flex items-center justify-center text-3xl mb-5 group-hover:scale-110 transition-transform shadow-md`}>
+                    {type.emoji}
+                  </div>
+                  <h3 className="font-display text-xl font-bold text-pink-800 mb-2 break-words">{type.title}</h3>
+                  <p className="text-pink-600 text-sm leading-relaxed">{type.desc}</p>
                 </div>
-                <h3 className="font-display text-xl font-bold text-pink-800 mb-2 break-words">{type.title}</h3>
-                <p className="text-pink-600 text-sm leading-relaxed">{type.desc}</p>
-              </div>
-            ))}
+              ))}
+            </div>
+            <div className="grid grid-cols-2 gap-6 max-w-2xl mx-auto">
+              {infoTypes.slice(3).map((type, i) => (
+                <div key={i} className="group glass-card rounded-3xl p-7 hover-lift cursor-default border border-pink-100 hover:border-pink-300 transition-all">
+                  <div className={`w-16 h-16 bg-gradient-to-br ${type.color} rounded-2xl flex items-center justify-center text-3xl mb-5 group-hover:scale-110 transition-transform shadow-md`}>
+                    {type.emoji}
+                  </div>
+                  <h3 className="font-display text-xl font-bold text-pink-800 mb-2 break-words">{type.title}</h3>
+                  <p className="text-pink-600 text-sm leading-relaxed">{type.desc}</p>
+                </div>
+              ))}
+            </div>
           </div>
           <div className="mt-16 glass-card rounded-3xl p-8 border border-pink-200">
             <h3 className="font-display text-3xl font-bold text-pink-800 mb-6 text-center">Классификация по другим признакам</h3>
