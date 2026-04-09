@@ -65,8 +65,7 @@ const infoTypes = [
   { title: "Числовая", desc: "Цифры, математические данные, статистика", color: "from-fuchsia-200 to-pink-300", emoji: "🔢" },
   { title: "Графическая", desc: "Рисунки, схемы, фотографии, карты", color: "from-rose-200 to-pink-400", emoji: "🖼️" },
   { title: "Звуковая", desc: "Речь, музыка, звуковые сигналы", color: "from-pink-300 to-fuchsia-400", emoji: "🎵" },
-  { title: "Видео", desc: "Фильмы, анимация, видеозаписи", color: "from-rose-300 to-pink-500", emoji: "🎬" },
-  { title: "Машинная", desc: "Данные в цифровом формате для ЭВМ", color: "from-fuchsia-300 to-rose-400", emoji: "💻" },
+  { title: "Комбинированная", desc: "Мультимедийная — сочетание текста, звука, графики и видео", color: "from-rose-300 to-pink-500", emoji: "🎬" },
 ];
 
 const properties = [
