@@ -376,7 +376,7 @@ export default function Index() {
                 <div className={`w-16 h-16 bg-gradient-to-br ${type.color} rounded-2xl flex items-center justify-center text-3xl mb-5 group-hover:scale-110 transition-transform shadow-md`}>
                   {type.emoji}
                 </div>
-                <h3 className="font-display text-2xl font-bold text-pink-800 mb-2">{type.title}</h3>
+                <h3 className="font-display text-xl font-bold text-pink-800 mb-2 break-words">{type.title}</h3>
                 <p className="text-pink-600 text-sm leading-relaxed">{type.desc}</p>
               </div>
             ))}
