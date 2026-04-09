@@ -370,7 +370,7 @@ export default function Index() {
       <section id="types" className="py-24">
         <div className="max-w-6xl mx-auto px-4">
           <SectionHeader icon="Layers" title="Виды информации" subtitle="Классификация по форме представления" />
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mt-12">
             {infoTypes.map((type, i) => (
               <div key={i} className="group glass-card rounded-3xl p-7 hover-lift cursor-default border border-pink-100 hover:border-pink-300 transition-all">
                 <div className={`w-16 h-16 bg-gradient-to-br ${type.color} rounded-2xl flex items-center justify-center text-3xl mb-5 group-hover:scale-110 transition-transform shadow-md`}>
